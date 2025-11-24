@@ -47,7 +47,7 @@ public:
         {
             throw DimensionError("Initializer list size must match vector dimension");
         }
-        std::copy(init.begin(), init.end(), m_data.begin());
+        std::copy(init.begin(), init.end(), m_data.begin()); 
     }
     
     // Copy and move constructors (defaulted)
@@ -269,7 +269,7 @@ public:
     }
 
 
-private:
+protected:
     std::array<T, N> m_data;
 };
 

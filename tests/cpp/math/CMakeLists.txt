@@ -1,7 +1,7 @@
-# CMakeLists.txt for Vector unit tests
+# CMakeLists.txt for Math unit tests
 
-add_unit_test(test_vector
-    SOURCES test_vector.cpp
+add_unit_test(test_math
+    SOURCES test_vector.cpp test_matrix.cpp
 )
 
 # Set test properties
